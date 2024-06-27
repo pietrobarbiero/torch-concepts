@@ -116,7 +116,7 @@ sections:
       - title: Easy
         subtitle: ''
         text: >+
-          #### Plug\&Play Concept Layers to build your interpretable learning
+          ##### Plug\&Play Concept Layers to build your interpretable learning
           pipeline.
 
         image:
