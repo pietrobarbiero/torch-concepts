@@ -106,7 +106,7 @@ sections:
   - type: FeaturedItemsSection
     title:
       text: Key Features
-      color: text-light
+      color: text-dark
       styles:
         self:
           textAlign: center
