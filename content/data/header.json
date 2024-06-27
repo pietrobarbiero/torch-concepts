@@ -47,6 +47,17 @@
             "iconPosition": "right",
             "style": "primary",
             "type": "Button"
+        },
+        {
+            "type": "Link",
+            "label": "GitHub",
+            "altText": "GitHub",
+            "url": "https://github.com/pyc-team/pytorch_concepts",
+            "showIcon": true,
+            "icon": "github",
+            "iconPosition": "left",
+            "style": "secondary",
+            "elementId": ""
         }
     ],
     "variant": "logo-left-primary-nav-centered",
