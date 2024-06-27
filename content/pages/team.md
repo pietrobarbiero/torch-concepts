@@ -17,7 +17,7 @@ sections:
     colors: bg-neutral-fg-dark
     backgroundImage:
       type: BackgroundImage
-      url: /images/abstract-background.svg
+      url: /images/triangles_back.jpg
       altText: Placeholder image
       backgroundSize: cover
       backgroundPosition: center
