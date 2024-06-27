@@ -19,7 +19,7 @@ sections:
       type: BackgroundImage
       url: /images/triangles_back.jpg
       altText: Placeholder image
-      backgroundSize: cover
+      backgroundSize: auto
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
