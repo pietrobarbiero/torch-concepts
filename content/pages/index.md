@@ -77,7 +77,7 @@ sections:
         altText: Contentful logo
         elementId: ''
       - type: ImageBlock
-        url: /images/sanity-logo.svg
+        url: /images/university-of-cambridge-logo-black-and-white.png
         altText: Sanity logo
         elementId: ''
       - type: ImageBlock
