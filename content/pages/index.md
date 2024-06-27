@@ -54,7 +54,7 @@ sections:
       opacity: 30
       url: /images/triangles_back.jpg
   - type: ImageGallerySection
-    subtitle: Our customers
+    subtitle: Built & used by
     images:
       - type: ImageBlock
         url: /images/empathy-logo.svg
