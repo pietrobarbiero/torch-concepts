@@ -61,7 +61,7 @@ sections:
         altText: Empathy logo
         elementId: ''
       - type: ImageBlock
-        url: /images/ku-logo.jpg
+        url: /images/ku-logo.png
         altText: Wellster logo
         elementId: ''
       - type: ImageBlock
