@@ -40,7 +40,7 @@ sections:
   - type: FeaturedPeopleSection
     title:
       type: TitleBlock
-      text: Meet the team
+      text: The Core PyC Team
       color: text-dark
       styles:
         self:
