@@ -225,9 +225,13 @@ sections:
       text: Social Media Management
       color: text-dark
     subtitle: Increase your reach
-    text: >
-      A service that helps businesses to manage their social media accounts and
-      posts.
+    text: |+
+      #### 1. Import the library
+
+      #### 2. Build the model
+
+      #### 3. Train
+
     actions:
       - type: Link
         label: See Tutorials
