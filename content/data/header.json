@@ -41,14 +41,6 @@
     ],
     "secondaryLinks": [
         {
-            "label": "Log in",
-            "url": "/",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "primary",
-            "type": "Button"
-        },
-        {
             "type": "Link",
             "label": "GitHub",
             "altText": "GitHub",
