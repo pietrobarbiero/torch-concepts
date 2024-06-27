@@ -92,7 +92,7 @@ sections:
       self:
         margin:
           - mt-0
-          - ml-2
+          - ml-0
           - mb-0
           - mr-2
         padding:
