@@ -139,7 +139,7 @@ sections:
             justifyContent: center
             borderWidth: 0
         type: FeaturedItem
-      - title: 200%
+      - title: Modular
         subtitle: Faster
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
