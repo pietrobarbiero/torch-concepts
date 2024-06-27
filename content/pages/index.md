@@ -222,7 +222,7 @@ sections:
   - type: GenericSection
     title:
       type: TitleBlock
-      text: Social Media Management
+      text: Get Started
       color: text-dark
     subtitle: ''
     text: |+
