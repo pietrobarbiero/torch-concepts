@@ -64,6 +64,7 @@ sections:
           self:
             padding:
               - pr-2
+              - pl-2
       - type: ImageBlock
         url: /images/ku-logo.png
         altText: Wellster logo
