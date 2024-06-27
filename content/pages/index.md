@@ -43,6 +43,8 @@ sections:
           - pb-40
           - pr-16
         justifyContent: center
+      subtitle:
+        textAlign: center
     backgroundImage:
       type: BackgroundImage
       altText: altText of the image
