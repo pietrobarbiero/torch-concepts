@@ -37,7 +37,7 @@ sections:
         padding:
           - pt-40
           - pl-16
-          - pb-20
+          - pb-40
           - pr-16
         justifyContent: flex-start
     backgroundImage:
