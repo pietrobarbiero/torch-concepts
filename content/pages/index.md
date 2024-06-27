@@ -57,7 +57,7 @@ sections:
     subtitle: Built & used by
     images:
       - type: ImageBlock
-        url: /images/empathy-logo.svg
+        url: /images/usi-logo.png
         altText: Empathy logo
         elementId: ''
       - type: ImageBlock
