@@ -47,6 +47,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
+      url: /images/triangles_back.jpg
   - type: FeaturedItemsSection
     title:
       text: Key Benefits
