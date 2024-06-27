@@ -5,7 +5,7 @@ sections:
   - type: GenericSection
     title:
       text: PyC is the PyTorch library for Concept-based Deep Learning
-      color: text-primary
+      color: text-dark
       type: TitleBlock
     subtitle: Subtitle goes here
     text: >
