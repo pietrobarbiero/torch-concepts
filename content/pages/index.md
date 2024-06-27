@@ -60,6 +60,10 @@ sections:
         url: /images/usi-logo.png
         altText: Empathy logo
         elementId: ''
+        styles:
+          self:
+            padding:
+              - pr-2
       - type: ImageBlock
         url: /images/ku-logo.png
         altText: Wellster logo
