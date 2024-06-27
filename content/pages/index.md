@@ -69,7 +69,7 @@ sections:
         altText: Vise logo
         elementId: ''
       - type: ImageBlock
-        url: /images/telus-logo.svg
+        url: /images/Sns-Scuola-Normale-Superiore-Pisa.png
         altText: Telus logo
         elementId: ''
       - type: ImageBlock
