@@ -40,7 +40,7 @@ sections:
         padding:
           - pt-40
           - pl-16
-          - pb-40
+          - pb-32
           - pr-16
         justifyContent: center
       subtitle:
