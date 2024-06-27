@@ -1,0 +1,42 @@
+{
+    "model": "FeaturedItem",
+    "srcType": "git",
+    "srcProjectId": "9a0364b9",
+    "presets": [
+        {
+            "label": "Code block",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "code"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "title": "",
+                "tagline": null,
+                "subtitle": "",
+                "text": "```\nimport torch\nfrom torch_concepts.data import xor\n\n```\n\n```\nx_train, c_train, y_train = xor(size=1000)\nemb_size = 5\nmodel = torch.nn.Sequential(\ntorch.nn.Linear(x_train.shape[1], emb_size),\ntorch.nn.LeakyReLU(),\nConceptLinear(emb_size, c_train.shape[1]),\nMLPReasoner(c_train.shape[1], y_train.shape[1], emb_size, n_layers=2),\n)\n```\n\n```\n# generate concept and task predictions\npreds = model(x_train)\ny_pred = preds[\"y_pred\"]\nc_pred = preds[\"c_pred\"]\n```\n\n",
+                "image": null,
+                "actions": [],
+                "elementId": null,
+                "colors": "bg-neutralAlt-fg-dark",
+                "styles": {
+                    "self": {
+                        "padding": [
+                            "pt-8",
+                            "pl-8",
+                            "pb-8",
+                            "pr-8"
+                        ],
+                        "borderRadius": "x-large",
+                        "flexDirection": "row",
+                        "justifyContent": "center",
+                        "textAlign": "left"
+                    }
+                }
+            },
+            "thumbnail": "images/featured-item-code-block-fa86.png"
+        }
+    ]
+}
