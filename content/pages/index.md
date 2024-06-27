@@ -61,45 +61,30 @@ sections:
       - type: FeaturedItem
         title: 500k
         subtitle: Numbers Done
-        text: >+
+        text: |+
+          ```
           import torch
+          from torch_concepts.data import xor
 
-          from torch\_concepts.data import xor
+          ```
 
-          **from torch\_concepts.nn import ConceptLinear, MLPReasoner**
-
-          -------------------------------------------------------------
-
-
-          x\_train, c\_train, y\_train = xor(size=1000)
-
-          emb\_size = 5
-
+          ```
+          x_train, c_train, y_train = xor(size=1000)
+          emb_size = 5
           model = torch.nn.Sequential(
-
-          torch.nn.Linear(x\_train.shape\[1], emb\_size),
-
+          torch.nn.Linear(x_train.shape[1], emb_size),
           torch.nn.LeakyReLU(),
-
-          ConceptLinear(emb\_size, c\_train.shape\[1]),
-
-          MLPReasoner(c\_train.shape\[1], y\_train.shape\[1], emb\_size,
-          n\_layers=2),
-
+          ConceptLinear(emb_size, c_train.shape[1]),
+          MLPReasoner(c_train.shape[1], y_train.shape[1], emb_size, n_layers=2),
           )
+          ```
 
-          -
-
-
-          \# generate concept and task predictions
-
-          preds = model(x\_train)
-
-          y\_pred = preds\["y\_pred"]
-
-          c\_pred = preds\["c\_pred"]
-
-          ---------------------------
+          ```
+          # generate concept and task predictions
+          preds = model(x_train)
+          y_pred = preds["y_pred"]
+          c_pred = preds["c_pred"]
+          ```
 
         actions: []
         elementId: null
