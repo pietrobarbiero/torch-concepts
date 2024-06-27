@@ -7,6 +7,9 @@ sections:
       text: PyC is the PyTorch library for Concept-based Deep Learning
       color: text-dark
       type: TitleBlock
+      styles:
+        self:
+          textAlign: center
     subtitle: Build interpretable deep learning models with ease
     text: ''
     actions:
