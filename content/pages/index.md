@@ -224,7 +224,7 @@ sections:
       type: TitleBlock
       text: Social Media Management
       color: text-dark
-    subtitle: Increase your reach
+    subtitle: ''
     text: |+
       #### 1. Import the library
 
