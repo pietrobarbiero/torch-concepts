@@ -59,7 +59,7 @@ sections:
     subtitle: Subtitle goes here
     items:
       - type: FeaturedItem
-        title: 500k
+        title: ''
         subtitle: Numbers Done
         text: |+
           ```
