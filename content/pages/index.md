@@ -39,7 +39,7 @@ sections:
           - pl-16
           - pb-40
           - pr-16
-        justifyContent: flex-start
+        justifyContent: center
     backgroundImage:
       type: BackgroundImage
       altText: altText of the image
