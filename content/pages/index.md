@@ -115,9 +115,10 @@ sections:
     items:
       - title: Easy
         subtitle: ''
-        text: >
-          Plug\&Play Concept Layers to build your interpretable learning
+        text: >+
+          #### Plug\&Play Concept Layers to build your interpretable learning
           pipeline.
+
         image:
           url: /images/icon2.svg
           altText: Featured icon two
