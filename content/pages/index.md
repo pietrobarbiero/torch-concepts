@@ -219,6 +219,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
+      url: /images/triangles_back.jpg
   - posts:
       - content/pages/blog/case-study-1.md
       - content/pages/blog/case-study-2.md
