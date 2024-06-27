@@ -115,10 +115,9 @@ sections:
     items:
       - title: Easy
         subtitle: ''
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: >
+          Plug\&Play Concept Layers to build your interpretable learning
+          pipeline.
         image:
           url: /images/icon2.svg
           altText: Featured icon two
