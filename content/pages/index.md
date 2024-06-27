@@ -113,48 +113,6 @@ sections:
       type: TitleBlock
     subtitle: ''
     items:
-      - type: FeaturedItem
-        title: ''
-        subtitle: ''
-        text: |+
-          ```
-          import torch
-          from torch_concepts.data import xor
-
-          ```
-
-          ```
-          x_train, c_train, y_train = xor(size=1000)
-          emb_size = 5
-          model = torch.nn.Sequential(
-          torch.nn.Linear(x_train.shape[1], emb_size),
-          torch.nn.LeakyReLU(),
-          ConceptLinear(emb_size, c_train.shape[1]),
-          MLPReasoner(c_train.shape[1], y_train.shape[1], emb_size, n_layers=2),
-          )
-          ```
-
-          ```
-          # generate concept and task predictions
-          preds = model(x_train)
-          y_pred = preds["y_pred"]
-          c_pred = preds["c_pred"]
-          ```
-
-        actions: []
-        elementId: null
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: row
-            justifyContent: center
-            textAlign: left
       - title: 20x
         subtitle: The Job Stuff
         text: >-
