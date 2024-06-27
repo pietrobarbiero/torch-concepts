@@ -162,33 +162,6 @@ sections:
             borderRadius: x-large
             flexDirection: row
         type: FeaturedItem
-      - type: FeaturedItem
-        title: Boh?
-        subtitle: ''
-        text: |+
-          ##### Sed ut perspiciatis unde omnis iste.
-
-        image:
-          type: ImageBlock
-          url: /images/icon1.svg
-          altText: Placeholder text
-          elementId: ''
-          styles:
-            self:
-              borderRadius: x-large
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: row
-            justifyContent: center
-            textAlign: left
     actions:
       - label: Get started
         altText: ''
