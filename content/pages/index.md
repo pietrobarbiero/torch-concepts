@@ -242,7 +242,7 @@ sections:
         style: primary
     media:
       type: ImageBlock
-      url: /images/hero2.svg
+      url: /images/Screenshot from 2024-06-27 15-26-54.png
       altText: Fun feature preview
     colors: bg-light-fg-dark
     styles:
