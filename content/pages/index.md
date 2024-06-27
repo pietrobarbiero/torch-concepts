@@ -61,10 +61,46 @@ sections:
       - type: FeaturedItem
         title: 500k
         subtitle: Numbers Done
-        text: >-
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          explicabo.
+        text: >+
+          import torch
+
+          from torch\_concepts.data import xor
+
+          **from torch\_concepts.nn import ConceptLinear, MLPReasoner**
+
+          -------------------------------------------------------------
+
+
+          x\_train, c\_train, y\_train = xor(size=1000)
+
+          emb\_size = 5
+
+          model = torch.nn.Sequential(
+
+          torch.nn.Linear(x\_train.shape\[1], emb\_size),
+
+          torch.nn.LeakyReLU(),
+
+          ConceptLinear(emb\_size, c\_train.shape\[1]),
+
+          MLPReasoner(c\_train.shape\[1], y\_train.shape\[1], emb\_size,
+          n\_layers=2),
+
+          )
+
+          -
+
+
+          \# generate concept and task predictions
+
+          preds = model(x\_train)
+
+          y\_pred = preds\["y\_pred"]
+
+          c\_pred = preds\["c\_pred"]
+
+          ---------------------------
+
         actions: []
         elementId: null
         colors: bg-neutralAlt-fg-dark
