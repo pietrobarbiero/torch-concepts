@@ -45,7 +45,7 @@ sections:
       altText: altText of the image
       backgroundSize: cover
       backgroundPosition: center
-      backgroundRepeat: repeat
+      backgroundRepeat: no-repeat
       opacity: 100
       url: /images/triangles_back.jpg
   - type: FeaturedItemsSection
