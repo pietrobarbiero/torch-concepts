@@ -242,7 +242,7 @@ sections:
         style: primary
     media:
       type: ImageBlock
-      url: /images/Screenshot from 2024-06-27 15-27-43.png
+      url: /images/Screenshot from 2024-06-27 16-13-58.png
       altText: Fun feature preview
     colors: bg-light-fg-dark
     styles:
