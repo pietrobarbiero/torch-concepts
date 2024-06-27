@@ -46,7 +46,7 @@ sections:
       backgroundSize: cover
       backgroundPosition: center
       backgroundRepeat: no-repeat
-      opacity: 30
+      opacity: 50
       url: /images/triangles_back.jpg
   - type: FeaturedItemsSection
     title:
