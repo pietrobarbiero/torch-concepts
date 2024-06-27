@@ -22,7 +22,7 @@
         },
         {
             "label": "Team",
-            "altText": "Blog",
+            "altText": "Team",
             "url": "/blog",
             "icon": "arrowRight",
             "iconPosition": "right",
