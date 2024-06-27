@@ -137,7 +137,7 @@ sections:
             flexDirection: row
             textAlign: left
             justifyContent: center
-            borderWidth: 2
+            borderWidth: 0
         type: FeaturedItem
       - title: 200%
         subtitle: Faster
