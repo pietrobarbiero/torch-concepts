@@ -113,7 +113,7 @@ sections:
       type: TitleBlock
     subtitle: ''
     items:
-      - title: 20x
+      - title: Easy
         subtitle: The Job Stuff
         text: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
